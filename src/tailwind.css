@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+
+body{
+    @apply font-inter m-auto w-full min-h-screen
+}
+.progress-css{
+    @apply min-w-full border border-[#F1F1F1] md:mt-[44px] mt-[34px]
+}
+.progress-child-css{
+    @apply h-[5px] w-full bg-[#4ABDE9]
+}
+.container-css{
+    @apply text-start md:w-[630px] w-full md:mt-[60px] mt-[44px] px-4  mx-auto
+}
+.container-title-css{
+    @apply md:text-[26px]  text-[20px]  text-[#4A4A4A] tracking-[.4] font-[500] leading-[25px]  mb-1
+}
+.container-subtitle-css{
+    @apply md:text-[20px] sm:text-[16px]  text-[#B4B4B4] mb-[42px]
+} 
+ 
+.button-css button{
+    @apply md:text-[20px] sm:text-[16px] leading-[20px] border-[#DFDFDF] border-[1px] text-[500]  text-[#4A4A4A] rounded-[6px] outline-none 
+    text-center h-[68px]   block mb-[18px] items-center cursor-pointer w-full hover:border-[#4abde9]
+}
+
+
+/* this is for project located */
+
+.project-located-container{
+    @apply md:w-[580px]
+}
+.input-css input{
+    @apply md:text-[20px] sm:text-[16px] leading-[20px] border-[#DFDFDF] border-[1px] text-[500]  text-[#4A4A4A] rounded-[8px] outline-none 
+    h-[68px]   block mb-[20px] pl-6 text-left items-center cursor-pointer w-full focus:border-[#4abde9]
+}
+
+/* this is for timeline for design/permit */
+
+.timeline-design-container{
+    @apply md:w-[510px]
+}
+.subtitle-css{
+    @apply mt-3
+}
+.timeline-design-btn{
+    @apply mb-10
+}
+
+/* what is your role  */
+.your-role-container{
+    @apply md:w-[470px]
+}
+
+/* experience on design  */
+
+.experience-in-design-container{
+    @apply md:w-[680px]
+}
+.experience-btn {
+  @apply md:w-[410px] md:ml-[10%] mb-10
+}
+
+/* pick the description */
+.pick-the-description-container{
+    @apply md:w-[750px] md:px-1
+}
+.pick-the-description-btn{
+    @apply md:grid md:grid-cols-3 md:gap-3
+}
+.description-button button{
+    @apply md:mb-0 rounded-[3px]
+}
+.description-button{
+    @apply mb-9
+}
